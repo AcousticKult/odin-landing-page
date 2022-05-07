@@ -1,9 +1,10 @@
-* {
+/** {
     border: 1px solid red;
-}
+}*/
 
 body {
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
 }
 
 .hero-image {
@@ -17,6 +18,7 @@ body {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 800;
 }
 
 li {
@@ -27,10 +29,11 @@ a {
     text-decoration: none;
 }
 
-.main-text {
+h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 800;
+    margin: 0;
 }
 
 .secondary-text,
@@ -46,4 +49,18 @@ button {
     padding: 4px 28px;
     border-radius: 8px;
     font-weight: 800;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+}
+
+img {
+    width: 100px;
+}
+
+.card .secondary-text {
+    color: #1F2937;
 }
