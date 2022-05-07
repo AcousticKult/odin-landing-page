@@ -55,6 +55,7 @@ h2 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 800;
+    margin: 0;
 }
 
 img {
@@ -63,4 +64,16 @@ img {
 
 .card .secondary-text {
     color: #1F2937;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+h3 {
+    color: #1F2937;
+    margin: 0;
 }
