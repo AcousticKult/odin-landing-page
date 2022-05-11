@@ -5,6 +5,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     height: 100vh;
+    margin: 0;
 }
 
 .hero-image {
@@ -63,6 +64,11 @@ img {
     width: 100px;
 }
 
+.card img {
+    border: 1px solid #3882F6;
+    border-radius: 8px;
+}
+
 .card .secondary-text {
     color: #1F2937;
 }
@@ -84,10 +90,15 @@ h3 {
     font-weight: 800;
 }
 
-.cta-container h3 {
+.cta {
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.cta h3 {
     color: #F9FAF8;
 }
 
-.cta-container button {
+.cta button {
     border: 1px solid #E5E7EB;
 }
