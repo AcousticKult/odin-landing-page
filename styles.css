@@ -89,11 +89,25 @@ button {
     font-weight: 800;
 }
 
+.info-container {
+    text-align: center;
+    padding-bottom: 6em;
+}
+
 h2 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 800;
-    margin: 0;
+    margin: 32px 0;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    max-width: 200px;
 }
 
 /*img {
@@ -101,7 +115,7 @@ h2 {
 }*/
 
 .card img {
-    width: 100px;
+    width: 150px;
     border: 1px solid #3882F6;
     border-radius: 8px;
 }
