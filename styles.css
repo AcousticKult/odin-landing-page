@@ -87,6 +87,7 @@ button {
     padding: 4px 28px;
     border-radius: 8px;
     font-weight: 800;
+    cursor: pointer;
 }
 
 .info-container {
@@ -126,6 +127,13 @@ h2 {
 
 .quote-container {
     background-color: #E5E7EB;
+    padding: 6em;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-box {
+    max-width: 750px;
 }
 
 .quote {
@@ -139,6 +147,7 @@ h3 {
     color: #1F2937;
     margin: 0;
     font-weight: 800;
+    text-align: right;
 }
 
 .cta {
