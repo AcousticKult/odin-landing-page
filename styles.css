@@ -8,7 +8,8 @@ body {
     margin: 0;
 }
 
-.header-hero-container {
+.header-hero-container,
+footer {
     background-color: #1F2937;
     padding: 0 8em;
     /*display: flex;
@@ -16,7 +17,8 @@ body {
     align-items: center;*/
 }
 
-header {
+header,
+footer {
     display: flex;
     /*justify-content: space-around;*/
     align-items: center;
@@ -147,12 +149,29 @@ h3 {
     color: #1F2937;
     margin: 0;
     font-weight: 800;
+}
+
+.quote-container h3 {
     text-align: right;
+}
+
+.cta-container {
+    display: flex;
+    padding: 6em;
+    justify-content: center;
 }
 
 .cta {
     background-color: #3882F6;
     border-radius: 8px;
+    display: flex;
+    padding: 2em 6em;
+    align-items: center;
+    gap: 6em;
+}
+
+.cta-text {
+    flex: 1;
 }
 
 .cta h3 {
@@ -161,4 +180,10 @@ h3 {
 
 .cta button {
     border: 1px solid #E5E7EB;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
 }
